@@ -7,10 +7,29 @@
 
 /* Common */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .flex {
     display: flex;
 }
 
+.container-s {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container-l {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
 
 /* Header */
 
@@ -37,3 +56,85 @@ header {
 }
 
 /* Main */
+
+main {
+    margin-top: 80px;   
+}
+
+/* Hero */
+
+.hero {
+    background-color: rgb(180 208 231);
+    
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.row-hero-s {
+    width: 30%;
+    /* debug */
+    background-color: lightgreen;
+    height: 100px;
+}
+
+
+.row-hero-l {
+    width: 68%;
+    /* debug */
+    background-color: lightcoral;
+    height: 100px;
+    
+}
+
+
+.flex-hero {
+    justify-content: space-between;
+}
+
+/* Subscription section */
+
+.flex-sub {
+    justify-content: space-between;
+}
+
+.row-sub {
+    width: 32%;
+    /* debug */
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+.enterprise {
+    margin-top: 30px;
+    /* debug */
+    height: 100px;
+    background-color: blueviolet;
+
+}
+
+/* Partner section */
+
+.partner {
+    margin-top: 30px;
+}
+
+.flex-par {
+    justify-content: space-between;
+}
+
+.row-par-l {
+    width: 68%;
+    /* debug */
+    height: 100px;
+    background-color: aqua;
+}
+
+.row-par-s {
+    width: 32%;
+        /* debug */
+        height: 100px;
+        background-color: darkgoldenrod;
+}
