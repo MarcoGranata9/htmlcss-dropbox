@@ -31,6 +31,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+section {
+    margin-top: 40px;
+}
+
 /* Header */
 
 header {
@@ -117,10 +121,6 @@ h1 {
 
 /* Partner section */
 
-.partner {
-    margin-top: 30px;
-}
-
 .flex-par {
     justify-content: space-between;
 }
@@ -137,4 +137,75 @@ h1 {
         /* debug */
         height: 100px;
         background-color: darkgoldenrod;
+}
+
+/* Business section */
+
+.flex-business {
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+
+.row-business {
+    width: calc(100% / 3 - 20px / 3);
+        /* debug */
+        height: 100px;
+        background-color: darkgoldenrod;
+}
+
+/* Discover section */
+
+
+
+/* Img section */
+
+.row-img {
+    width: calc(100% / 3);
+    /* debug */
+    height: 100px;
+    background-color: blue;
+}
+
+/* Faq section */
+
+.flex-faq {
+    flex-direction: column;
+}
+
+.row-faq {
+    /* debug */
+    background-color: cadetblue;
+    height: 100px;
+}
+
+/* Footer */
+
+footer {
+    /* debug */
+    margin-top: 30px;
+}
+
+/* Footer top */
+
+.flex-footer {
+    gap: 10px;
+}
+
+.row-footer {
+    width: calc(100% / 5 - 20px / 5);
+    /* debug */
+    height: 100px;
+    background-color: forestgreen;
+}
+
+/* Footer bottom */
+
+.footer-container {
+    
+    width: 20%;
+    
+    /* debug */
+    height: 100px;
+    background-color: orange;
+    margin: 10px;
 }
