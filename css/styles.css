@@ -60,9 +60,21 @@ a {
     display: inline-block;
 }
 
+.white-btn {
+    padding: .5rem 1rem;
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+}
+
 .blue-btn:hover {
     background-color: rgba(0, 97, 255, 0.8)
     
+}
+
+.white-btn:hover {
+    color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Header */
@@ -235,21 +247,23 @@ h1 {
 
 .flex-par {
     justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
 
 .row-par-l {
-    width: 68%;
-    /* debug */
-    height: 100px;
-    background-color: aqua;
+    width: 70%;
+
 }
 
 .row-par-s {
-    width: 32%;
-        /* debug */
-        height: 100px;
-        background-color: darkgoldenrod;
+    width: 30%;
 }
+
+.row-par-s p {
+    padding-bottom: 1rem;
+}
+
 
 /* Business section */
 
