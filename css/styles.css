@@ -279,15 +279,94 @@ h1 {
 
 /* Discover section */
 
+.discover-padding {
+    padding-top: 8rem;
+}
 
+.discover-link {
+    display: block;
+    color: blue;
+    text-decoration: underline;
+    padding-bottom: 5rem;
+}
 
-/* Img section */
+/* Team section */
 
-.row-img {
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(103deg) brightness(105%) contrast(105%);
+}
+
+.row-team {
     width: calc(100% / 3);
-    /* debug */
-    height: 100px;
-    background-color: blue;
+    flex-wrap: wrap;
+    aspect-ratio: 1 / 1;
+}
+
+.col-team {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
+
+.flex-square {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-w {
+    width: 60%;
+}
+
+.designit {
+    background-color: #a2d39b;
+    border: 1rem solid #d1e9cd;
+}
+
+.arizona {
+    background-color: #61082b;
+}
+
+.florida {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
+}
+
+.world {
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.lonely {
+    background-color: #0d2481;
+}
+
+.clear {
+    background-color: #ffd830;
+}
+
+.row-team-mid {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+}
+
+.row-team-mid > * {
+    margin-bottom: 2rem;
+}
+
+.row-team-mid hr {
+    width: 20%;
+    border: 1px solid rgb(220 220 222)
+}
+
+.logo-mid {
+    width: 50%;
 }
 
 /* Faq section */
