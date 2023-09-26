@@ -33,6 +33,12 @@ body {
 
 h2 {
     font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 section {
@@ -128,11 +134,9 @@ h1 {
     margin-bottom: 1rem;
 }
 
-
 .row-hero-l {
     width: 68%;    
 }
-
 
 .flex-hero {
     justify-content: space-between;
@@ -144,19 +148,87 @@ h1 {
     justify-content: space-between;
 }
 
-.row-sub {
-    width: 32%;
-    /* debug */
-    height: 100px;
-    background-color: lightseagreen;
+.padding-col-sub {
+    padding: 2rem;
 }
+.col-sub {
+    width: 32%;
+    flex-direction: column;  
+    border: 1px solid rgb(220 220 222);
+}
+
+.col-sub-header {
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.col-sub hr {   
+    border: 1px solid rgb(220 220 222)
+}
+
+.col-sub-title > * {
+    padding-bottom: 1rem;
+}
+
+.gray {
+    color: gray;
+    padding-bottom: 3rem;
+}
+
+.col-sub li {
+    padding-bottom: 1rem;
+}
+
+.sub-btn {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.buynow {
+    text-decoration: underline;
+    color: blue;
+}
+
+.padding {
+    padding: 2rem 0
+}
+
+.hr-small {
+    width: 30%;
+}
+
+.check-list i{
+    color: blue;
+}
+
+/* Enterprise */
 
 .enterprise {
     margin-top: 30px;
-    /* debug */
-    height: 100px;
-    background-color: blueviolet;
+    border: 1px solid rgb(220 220 222)
 
+}
+
+.enterprise hr {
+    border: 1px solid rgb(220 220 222)
+}
+
+.flex-ent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-ent-70 {
+    width: 68%;
+    padding-bottom: 2rem;
+}
+
+.col-ent-30 {
+    width: 30%;
 }
 
 /* Partner section */
