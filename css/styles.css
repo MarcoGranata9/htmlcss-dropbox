@@ -42,7 +42,7 @@ h3 {
 }
 
 section {
-    margin-top: 40px;
+    padding-top: 2.5rem;
 }
 
 ul {
@@ -63,6 +63,7 @@ a {
 .white-btn {
     padding: .5rem 1rem;
     display: inline-block;
+    background-color: white;
     border: 1px solid black;
     color: black;
 }
@@ -369,17 +370,54 @@ h1 {
     width: 50%;
 }
 
+/* Free trial section */
+.blue-section {
+    background-color: #b4d0e7;
+}
+
+.free-row {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.no-border {
+    border-style: none;
+}
+
+.wine {
+    color: #61082b;
+}
 /* Faq section */
 
 .flex-faq {
     flex-direction: column;
+    position: relative;
 }
 
+
 .row-faq {
-    /* debug */
-    background-color: cadetblue;
-    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 1rem 2rem 0;
 }
+
+.hover-p {
+    padding-top: 2rem;
+    display: none;
+    width: 90%;
+}
+
+.row-faq:hover .hover-p {
+    display: block;
+}
+
+.row-faq:hover .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
 
 /* Footer */
 
