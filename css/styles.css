@@ -274,9 +274,7 @@ h1 {
 
 .row-business {
     width: calc(100% / 3 - 20px / 3);
-        /* debug */
-        height: 100px;
-        background-color: darkgoldenrod;
+
 }
 
 /* Discover section */
