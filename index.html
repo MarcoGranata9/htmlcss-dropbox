@@ -57,7 +57,7 @@
 
         <!-- Hero -->
         <div class="hero">
-            <div class="container-l">
+            <div class="container-l position-hero">
                 <h1>Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
 
                 <div class="flex flex-hero">
@@ -67,7 +67,7 @@
                             e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <a class="blue-btn " href="">Inizia la tua prova gratuita</a>
                         <p>Annulla in qualsiasi momento</p>
-                        <i class="fa-solid fa-arrow-down fa-3x"></i>
+                        <a href=""><i class="fa-solid fa-arrow-down fa-3x"></i></a>
                     </div>
 
                     <div class="row-hero-l">
@@ -79,13 +79,14 @@
         <!-- /Hero -->
 
         <!-- Subscription section -->
-        <section>
+        <section class="sub">
             <div class="container-s">
                 <h2>Trova il piano business che fa per te</h2>
 
-                <div><input type="checkbox">
-                    Fatturazione mensile <input type="checkbox">
-                    Fatturazione annuale</div>
+                <div class="radio-input">
+                    <input class="radio" type="radio" name="plan"><span class="radio-text">Fatturazione mensile</span> 
+                    <input class="radio" type="radio" name="plan"><span class="radio-text">Fatturazione annuale</span>
+                </div>
 
                 <div class="flex flex-sub">
 

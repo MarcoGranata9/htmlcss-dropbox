@@ -51,6 +51,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .blue-btn {
@@ -129,7 +130,11 @@ main {
 
 .hero {
     background-color: rgb(180 208 231);
-    
+    position: relative;
+}
+
+.position-hero {
+    transform: translateY(3rem);
 }
 
 h1 {
@@ -156,6 +161,19 @@ h1 {
 }
 
 /* Subscription section */
+
+.sub {
+    padding-top: 7rem;
+}
+
+.radio-input {
+    padding-bottom: 2rem;
+}
+
+.radio {
+    width: 1.2rem;
+    height: 1.2rem;
+}
 
 .flex-sub {
     justify-content: space-between;
@@ -428,6 +446,7 @@ h1 {
 footer {
     padding-top: 5rem;
     background-color: #000000;
+    font-size: small;
 }
 
 /* Footer top */
